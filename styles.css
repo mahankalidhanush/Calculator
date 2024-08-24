@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f7f7f7; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff; /* Primary color for the title */
+  text-align: center;
+}
+
+input, button, select {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input {
+  background-color: #e9ecef; /* Light background for input fields */
+  color: #495057; /* Dark grey text */
+}
+
+input:focus {
+  border-color: #007bff; /* Primary color for focus */
+}
+
+select {
+  background-color: #e9ecef; /* Matching background for select */
+  color: #495057;
+}
+
+select:focus {
+  border-color: #007bff; /* Primary color for focus */
+}
+
+button {
+  background-color: #007bff; /* Primary color for button */
+  color: #ffffff; /* White text */
+  cursor: pointer;
+  border: none; /* Remove border */
+}
+
+button:hover {
+  background-color: #0c79ee; /* Darker shade for hover */
+}
+
+button:active {
+  background-color: #0a7ffc; /* Even darker shade for active state */
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #28a745; /* Green color for result text */
+}
+
+/* Adding some additional styles for error messages */
+.error {
+  color: #dc3545; /* Red color for error messages */
+}
